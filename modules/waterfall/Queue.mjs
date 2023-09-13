@@ -4,7 +4,6 @@ class Queue {
   pendingEntries = [];
 
   inFlight = 0;
-
   err = null;
 
   constructor(worker, options = {}) {
